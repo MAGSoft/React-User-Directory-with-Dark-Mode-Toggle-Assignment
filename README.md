@@ -1,39 +1,61 @@
-# MERN Stack Assignment
+# React User Directory with Dark Mode Toggle Assignment
 
-## Overview
+## Objective    
+The objective of this assignment is to assess the intern's React knowledge and understanding, including the implementation of API fetching, data rendering, and context API usage.
 
-Welcome to the MERN stack assignment! This evaluation is designed to assess your knowledge and skills in the MERN stack, focusing on coding and Logical skills. You will be working on a mini project that will help us understand your approach to problem-solving, programming, and system design.
+## Task Description
+You are required to create a React application that fetches data from the Random User API and displays a user directory. The application should have the following features:
 
-## Instructions
+- Use functional components and hooks.
+- Fetch user data from the Random User API using Axios.
+- Display the fetched user data in a user directory format, including their names, addresses, email addresses, and profile pictures.
+- Implement a dark mode toggle button that allows the user to switch between light and dark mode.
+- Use the Context API to manage the application's theme (light/dark mode).
 
-1. **Clone the repository**: Clone the assignment repository provided to you by GitHub Classroom.
+### Task Details
+- Fetch data from the Random User API using Axios. The API documentation can be found here.
+- Implement the user directory component that displays the fetched user data in a clean and organized manner.
+- Create a dark mode toggle button that allows the user to switch between light and dark mode. Use the Context API to manage the theme.
+- Ensure proper error handling for API requests and display error messages when necessary.
+- Organize your code, keeping it clean and readable.
+- Implement the UI using appropriate styling frameworks or libraries (e.g., CSS, Bootstrap, Material-UI, etc.) to enhance the user experience.
 
-2. **Install dependencies**: Navigate to the project directory and run the following command to install the necessary dependencies:
+## Getting Started
+To get started with the assignment, follow the instructions below:
 
-    ```bash
-    npm install
-    ```
+### Clone the repository to your local machine using the command:
 
-3. **Sample Solution**: In this repository, you will find a sample solution that demonstrates what your final implementation should look like. Please review the sample_code.js, sample_test.js, and sample_output.txt files to understand the structure and requirements of the assignment.
+ ```
+git clone https://github.com/MAGSoft/React-User-Directory-with-Dark-Mode-Toggle-Assignment.git
+ ```
+ 
+### Install the dependencies using npm:
 
-4. **Develop your solution**: Implement your solution using React, following the guidelines and requirements provided in the assignment. Make sure to write clean, efficient, and modular code that adheres to best practices.
+ ```
+npm install
+ ```
 
-5. **Testing**: Write test cases using the React Testing Library and Jest to ensure the correctness of your implementation. Use the provided sample_test.js file as a reference for writing your test cases. Writing test cases is not compulsory, but if you write them, it will be considered a plus point.
+### Start the development server:
+ ```
+npm start
+ ```
 
-6. **Submit your assignment**: Once you have completed the implementation and testing, commit your changes and push your code to the GitHub Classroom repository.
+Open your browser and visit http://localhost:3000 to see the application in action.
 
 ## Evaluation Criteria
 Your assignment will be evaluated based on the following criteria:
 
-- Correctness and functionality of your implementation
-- Code quality, including readability, modularity, and adherence to best practices
-- Test coverage and the quality of test cases
-- Overall design and architecture of your solution
+- Correct implementation of functional components and hooks.
+- Proper handling of API requests and data rendering.
+- Implementation of dark mode toggle functionality using the Context API.
+- Error handling for API requests.
+- Code cleanliness, organization, and readability.
+- User interface design and user experience.
+## Resources
+- Random User API Documentation: https://randomuser.me/documentation
 
-## Notes
+Good luck with your assignment! Should you have any questions, feel free to ask for assistance.
 
-- The sample solution is provided for reference only. You should not modify the contents of this folder or use the sample code directly in your own solution.
-- While working on the assignment, try to develop your own approach to the problem and do not rely on the sample solution as a template.
-- Remember to follow the instructions and requirements outlined in the main `README.md` file of the assignment repository.
 
-Good luck with the assignment, and feel free to reach out to the us if you have any questions or concerns!
+
+
