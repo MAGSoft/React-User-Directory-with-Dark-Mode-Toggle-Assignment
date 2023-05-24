@@ -7,13 +7,13 @@ The objective of this task is to assess the intern's React knowledge and underst
 You are required to create a React application that fetches data from the Random User API and displays a user directory. The application should have the following features:
 
 - Use functional components and hooks.
-- Fetch user data from the Random User API using Axios.
+- Fetch data from the [Random User API](https://randomuser.me/) by making HTTP GET requests using Axios to https://randomuser.me/api/?results=10.
 - Display the fetched user data in a user directory format, including their names, addresses, email addresses, and profile pictures.
 - Implement a dark mode toggle button that allows the user to switch between light and dark mode.
 - Use the Context API to manage the application's theme (light/dark mode).
 
 ### Task Details
-- Fetch data from the Random User API using Axios. The API documentation can be found here.
+- Fetch data from the Random User API using Axios. The API documentation can be found [here](https://randomuser.me/documentation).
 - Implement the user directory component that displays the fetched user data in a clean and organized manner.
 - Create a dark mode toggle button that allows the user to switch between light and dark mode. Use the Context API to manage the theme.
 - Ensure proper error handling for API requests and display error messages when necessary.
@@ -65,7 +65,6 @@ npm install @mui/material
 #### For Axios:
 ``` 
 npm install axios
-
 ``` 
 - Axios Documentation: https://axios-http.com/
 
