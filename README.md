@@ -13,7 +13,7 @@ You are required to create a React application that fetches data from the Random
 - Use the Context API to manage the application's theme (light/dark mode).
 
 ### Task Details
-- Fetch data from the Random User API using Axios. The API documentation can be found here.
+- Fetch data from the Random User API using Axios. The API documentation can be found [here](https://randomuser.me/documentation).
 - Implement the user directory component that displays the fetched user data in a clean and organized manner.
 - Create a dark mode toggle button that allows the user to switch between light and dark mode. Use the Context API to manage the theme.
 - Ensure proper error handling for API requests and display error messages when necessary.
