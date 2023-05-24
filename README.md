@@ -23,6 +23,25 @@ You are required to create a React application that fetches data from the Random
 ## Getting Started
 To get started with the task, follow the instructions below:
 
+### Folder Structure:
+For this task, please structure your project files as follows:
+
+ ``` 
+ - src/
+  - assets/      # Images, fonts and other static files
+  - components/  # Shared React components
+  - contexts/    # React Context definitions
+  - hooks/       # Custom React hooks
+  - layouts/     # Layout components used by multiple pages
+  - pages/       # Components representing unique pages/screens in your app
+  - services/    # Services for handling API requests, data processing etc.
+  - styles/      # Global CSS or other style files
+  - utils/       # Utility functions and constants
+  - App.js       # Main application component
+  - index.js     # Entry point of your application
+
+ ```
+
 ### Clone the repository to your local machine using the command:
 
  ```
@@ -34,14 +53,16 @@ git clone https://github.com/MAGSoft/React-User-Directory-with-Dark-Mode-Toggle-
  ```
 npm install
  ```
+### Optional Dependencies:
+If you wish to use Material-UI or Axios, you can install them by running the respective commands:
 
-### If you want to use Material-UI, you can install it by running the following command:
+#### For Material-UI:
 ``` 
 npm install @mui/material
 ```
 - Material-UI Documentation: https://mui.com/
 
-### If you want to use Axios, you can install it by running the following command:
+#### For Axios:
 ``` 
 npm install axios
 
@@ -60,10 +81,11 @@ Your task will be evaluated based on the following criteria:
 
 - Correct implementation of functional components and hooks.
 - Proper handling of API requests and data rendering.
-- Implementation of dark mode toggle functionality using the Context API.
-- Error handling for API requests.
+- Implementation of the dark mode toggle functionality using the Context API.
+- Effective error handling for API requests.
 - Code cleanliness, organization, and readability.
 - User interface design and user experience.
+
 ## Resources
 - Random User API Documentation: https://randomuser.me/documentation
 - Material-UI Documentation: https://mui.com/
