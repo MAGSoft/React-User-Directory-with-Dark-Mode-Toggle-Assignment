@@ -54,6 +54,12 @@ Your assignment will be evaluated based on the following criteria:
 ## Resources
 - Random User API Documentation: https://randomuser.me/documentation
 
+## Notes
+
+- While working on the assignment, try to develop your own approach to the problem.
+- Remember to follow the instructions and requirements outlined in the main `README.md` file of the assignment repository.
+
+
 Good luck with your assignment! Should you have any questions, feel free to ask for assistance.
 
 
