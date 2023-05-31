@@ -45,7 +45,7 @@ For this task, please structure your project files as follows:
 ### Clone the repository to your local machine using the command:
 
  ```
-git clone https://github.com/MAGSoft/React-User-Directory-with-Dark-Mode-Toggle-Assignment.git
+git clone https://github.com/MAGSoft/React-User-Directory-with-Dark-Mode-Toggle-Assignment-your-username.git
  ```
  
 ### Install the dependencies using npm:
